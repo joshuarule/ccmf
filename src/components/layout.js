@@ -1,88 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
-import styled from "styled-components"
 
-import { rhythm, scale } from "../utils/typography"
+import "../styles/app.scss"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    const blogPath = `${__PATH_PREFIX__}/blog/`
-    let header
-
-    if (location.pathname === rootPath || location.pathname === blogPath) {
-      header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/blog/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
+    const { children } = this.props
+      
     return (
-      <Wrapper>
-        <div
-          style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          }}
-        >
-          <header>{header}</header>
+      <>
+        <div className="flex-1">
+          <header className="container">
+          <h1 className="f-xxl" style={{marginTop: 0}}><Link className="link--clean" to="/">Catskill<br/>Community<br/>Micro Farm</Link></h1>
+            
+          </header>
           <main>{children}</main>
         </div>
-        <Footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </Footer>
-      </Wrapper>
+        <footer className="marginBottom-3 bp-1_marginBottom-12">
+          <div className="container">
+            <ul className="list--clean">
+              <li><Link className="h2 paddingVertical-2 block" to="/mission/">Mission</Link></li>
+              <li><a className="h2 paddingVertical-2 block" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join the newsletter</a></li>
+              <li><a className="h2 paddingVertical-2 block" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Come work with us</a></li>
+              <li><a className="h2 paddingVertical-2 block" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Directions</a></li>
+            </ul>
+          </div>
+        </footer>
+      </>
     )
   }
 }
-
-const Wrapper = styled.div`
-  min-height: 100vh;
-`
-
-const Footer = styled.footer`
-  text-align: center;
-  margin: 24px;
-`
 
 export default Layout

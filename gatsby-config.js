@@ -31,6 +31,7 @@ module.exports = {
         name: `assets`,
       },
     },
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -79,12 +80,6 @@ module.exports = {
         // edit below
         icon: `content/assets/gatsby-icon.png`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    }
   ],
 }

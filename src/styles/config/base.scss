@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box ;
+}
+html, body {
+    height: 100%;
+    background-color: var(--c-mint);
+    color: var(--c-grey80);
+}
+
+html {}
+
+body {
+    @extend .h3;
+    @extend .flex--column;
+    
+    font-family: var(--f-primary);
+    -webkit-font-smoothing: antialiased;
+    padding-top: var(--unit-5);
+    margin: 0;
+    font-size: 20px;
+    
+    @include bp-1 {
+        font-size: 24px;
+        padding-top: var(--unit-20);
+    }
+    
+    & #___gatsby,
+    #gatsby-focus-wrapper {
+        @extend .flex--column;
+        flex: 1;  
+    }
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    color: var(--c-white);
+}
+
+svg {
+    display: block;
+}
+
+

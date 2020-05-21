@@ -1,0 +1,23 @@
+:root {
+  --c-red: #ff5050;
+  --c-mint: #1b5749;
+  --c-white: #fff;
+  --c-grey90: #f7f7f7;
+  --c-grey80: #dedcdc;
+  --c-grey70: #c6c5c5;
+  --c-grey40: #666666;
+  --c-black: #2b2b2b;
+  --c-brand-primary: var(--c-red);
+
+  --containerWidth: 1440px;
+}
+
+.c-black  { color: var(--c-black) }
+.c-white  { color: var(--c-white) }
+.c-brand-primary  { color: var(--c-brand-primary) }
+.c-grey40 { color: var(--c-grey40) }
+
+
+.bg-black { background-color: var(--c-black) }
+.bg-white { background-color: var(--c-white) }
+
