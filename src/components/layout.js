@@ -16,7 +16,7 @@ class Layout extends React.Component {
           </header>
           <main>{children}</main>
         </div>
-        <footer className="marginBottom-3 bp-1_marginBottom-12">
+        <footer className="marginBottom-6 bp-1_marginBottom-12">
           <div className="container">
             <ul className="list--clean">
               <li><Link className="h2 paddingVertical-2 block" to="/mission/">Mission</Link></li>
