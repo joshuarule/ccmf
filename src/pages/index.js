@@ -2,9 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 class IndexPage extends React.Component {
   render() {
+    const { data } = this.props;
+    const pageData = data.mdx;
 
     return (
       <Layout className="container" location={this.props.location} >
@@ -13,9 +16,9 @@ class IndexPage extends React.Component {
           keywords={[`farm`, `catskill`, `volunteer`, `community`]}
         />
         <div className="container">
-          <p className="h1 f-primary--italic width--3qtr">
-            Conceived in May of 2020, our aim is to grow fresh food to feed our neighbors, as far as the harvest will stretch.
-          </p>
+          <div className="h1 f-primary--italic width--3qtr">
+            <MDXRenderer>{pageData.body}</MDXRenderer>
+          </div>
         </div>
       </Layout>
     )
@@ -23,3 +26,11 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    mdx(frontmatter: {templateKey: {eq: "home-page"}}) {
+      body
+    }
+  }
+`

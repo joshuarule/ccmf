@@ -15,3 +15,20 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+  
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Mission Page"
+        name: "mission"
+        file: "content/pages/mission.mdx"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "mission-page" }
+          - { name: body, label: Body, widget: markdown }
+      
+      - label: "Home Page"
+        name: "home"
+        file: "content/pages/home.mdx"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page" }
+          - { name: body, label: Body, widget: markdown }
