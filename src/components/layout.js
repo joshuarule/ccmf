@@ -20,9 +20,9 @@ class Layout extends React.Component {
           <div className="container">
             <ul className="list--clean">
               <li><Link className="h2 paddingVertical-2 block" to="/mission/">Mission</Link></li>
+              <li><a className="h2 paddingVertical-2 block" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Location</a></li>
               <li><a className="h2 paddingVertical-2 block" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join the newsletter</a></li>
               <li><a className="h2 paddingVertical-2 block" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Come work with us</a></li>
-              <li><a className="h2 paddingVertical-2 block" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Directions</a></li>
             </ul>
           </div>
         </footer>
