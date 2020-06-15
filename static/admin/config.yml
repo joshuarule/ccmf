@@ -21,6 +21,8 @@ collections:
     name: "pages"
     folder: content/pages
     create: true
+    media_folder: ''
+    public_folder: ''
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
