@@ -1,9 +1,9 @@
 ---
 path: about
 title: About
-date: "2019-10-22"
-description: "Catskill Community Micro Farm Mission Statement"
+description: Catskill Community Micro Farm Mission Statement
 ---
+![Catskill Farm Volunteers amongst raised beds](/../assets/ccmf-group-1-.jpg "Catskill Community Micro Farm Volunteers")
 
 Conceived in May of 2020, our aim is to grow fresh food to feed our neighbors, as far as the harvest will stretch.
 
@@ -22,4 +22,3 @@ If you’d like to get involved, please fill out our sign up form, and don’t h
 This isn’t just our space, it’s your space also.
 
 We look forward to meeting you!
-
