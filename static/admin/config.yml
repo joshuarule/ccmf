@@ -22,8 +22,8 @@ collections:
     folder: content/pages
     path: '{{slug}}/index'
     create: true
-    media_folder: ''
-    public_folder: ''
+    media_folder: './media'
+    public_folder: './media'
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
