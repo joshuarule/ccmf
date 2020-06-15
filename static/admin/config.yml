@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: joshuarule/ccmf
 
 media_folder: static/assets
 public_folder: assets
@@ -19,17 +20,9 @@ collections:
   - label: "Pages"
     name: "pages"
     folder: content/pages
-    files:
-      - label: "Mission Page"
-        name: "mission"
-        file: "mission.mdx"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "mission-page" }
-          - { name: body, label: Body, widget: markdown }
-      
-      - label: "Home Page"
-        name: "home"
-        file: "home.mdx"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page" }
-          - { name: body, label: Body, widget: markdown }
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }

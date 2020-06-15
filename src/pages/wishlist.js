@@ -29,8 +29,8 @@ class MissionPage extends React.Component {
 export default MissionPage
 
 export const pageQuery = graphql`
-  query missionQuery {
-    mdx(frontmatter: {templateKey: {eq: "mission-page"}}) {
+  query wishlistQuery {
+    mdx(frontmatter: {templateKey: {eq: "wishlist-page"}}) {
       body
       frontmatter {
         title

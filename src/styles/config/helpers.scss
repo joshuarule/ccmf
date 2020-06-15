@@ -6,6 +6,9 @@
 .absolute { position: absolute; }
 .relative { position: relative !important; }
 
+.zIndex-1       { z-index: 1 }
+.zIndex-1--neg  { z-index: -1 }
+
 .fill {
   position: absolute;
   top:    0;
@@ -28,10 +31,13 @@
 .flex-align--end      { align-items: flex-end; }
 .flex-align--center   { align-items: center; }
 
-.flex-justify--spaceBetween  { justify-content: space-between; }
-.flex-justify--center  { justify-content: center; }
+.flex-justify--spaceBetween   { justify-content: space-between; }
+.flex-justify--start          { justify-content: flex-start; }
+.flex-justify--end            { justify-content: flex-end; }
+.flex-justify--center         { justify-content: center; }
 
 .flex-alignSelf--stretch { align-self: stretch; }
+.flex-alignSelf--end     { align-self: flex-end; }
 // END FLEX
 
 
@@ -41,6 +47,7 @@
 .underline          { text-decoration: underline; }
 
 .container {
+  width: 100%;
   margin: 0 auto;
   padding-left: var(--unit-5);
   padding-right: var(--unit-5);
@@ -80,5 +87,24 @@
   @include bp-1 {
     width: 75%;
     min-width: 600px;
+  }
+}
+
+// images
+
+.fit--cover {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .gatsby-image-wrapper {
+    position: absolute !important;
+    top: 0;
+    flex-grow: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 }

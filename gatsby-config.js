@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    title: `Catskill Community Micro Farm`,
+    author: `JoshuaRule`,
+    description: `A volunteer run micro farm aiming to feed the local community`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `catskillcommunitymicrofarm`,
+      facebook: `12414microfarm`
     },
   },
   plugins: [
@@ -85,7 +86,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
       },
     }
   ],
