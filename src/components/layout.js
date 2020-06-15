@@ -61,8 +61,8 @@ class Layout extends React.Component {
               </ul>
               <ul className="list--clean flex flex-alignSelf--end">
                 <li><a className="h2 paddingVertical-2 block" href="mailto:catskill.community.micro.farm@gmail.com">Email us</a></li>
-                <li><Link className="h2 paddingVertical-2 block" to="/mission/">Facebook</Link></li>
-                <li><Link className="h2 paddingVertical-2 block" to="/wishlist/">Twitter</Link></li>
+                <li><Link className="h2 paddingVertical-2 block" to="https://www.facebook.com/12414microfarm" target="_blank" rel="noopener noreferrer">Facebook</Link></li>
+                <li><Link className="h2 paddingVertical-2 block" to="https://instagram.com/catskillcommunitymicrofarm">Instagram</Link></li>
                 <li><a className="h2 paddingVertical-2 block" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Location</a></li>
               </ul>
             </nav>
