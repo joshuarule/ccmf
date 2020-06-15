@@ -4,7 +4,7 @@ module.exports = {
     title: `Catskill Community Micro Farm`,
     author: `JoshuaRule`,
     description: `A volunteer run micro farm aiming to feed the local community`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://ccmicrofarm.org/`,
     social: {
       instagram: `catskillcommunitymicrofarm`,
       facebook: `12414microfarm`
@@ -17,13 +17,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/blog`,
-    //     name: `blog`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
