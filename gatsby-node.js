@@ -10,6 +10,9 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             id
+            frontmatter {
+              path
+            }
             fields {
               slug
             }
@@ -20,8 +23,9 @@ exports.createPages = async ({ graphql, actions }) => {
   `).then(res => res.data )
 
   pagesContent.pages.edges.forEach(({ node }) => {
+    const pathString = `/${node.frontmatter.path}/`;
 		createPage({
-			path: node.fields.slug,
+			path: pathString,
 			component: path.resolve(`./src/templates/default.js`),
 			context: {
 				slug: node.fields.slug,

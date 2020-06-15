@@ -39,7 +39,7 @@ class Layout extends React.Component {
         <footer className="marginBottom-6 bp-1_marginBottom-12">
           <div className="container flex flex-justify--spaceBetween">
             <ul className="list--clean">
-              <li><Link className="h2 paddingVertical-2 block" to="/mission/">About</Link></li>
+              <li><Link className="h2 paddingVertical-2 block" to="/about/">About</Link></li>
               <li><Link className="h2 paddingVertical-2 block" to="/wishlist/">Items we need</Link></li>
               
               <li><a className="h2 paddingVertical-2 block" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join the newsletter</a></li>
