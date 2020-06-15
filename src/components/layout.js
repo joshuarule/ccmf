@@ -1,8 +1,12 @@
 import React from "react";
 import { Link, graphql } from "gatsby"
 import Img from 'gatsby-image';
+import {MDXProvider} from "@mdx-js/react";
 
+import Button from "./Button"
 import "../styles/app.scss"
+
+const shortcodes = { Button }
 
 class Layout extends React.Component {
   render() {
@@ -26,7 +30,11 @@ class Layout extends React.Component {
               <Link className="link--clean" to="/">Catskill<br/>Community<br/>Micro Farm</Link>
             </h1>
           </header>
-          <main className="flex--column">{children}</main>
+          <main className="flex--column">
+            <MDXProvider components={shortcodes}>
+              {children}
+            </MDXProvider>
+          </main>
         </div>
         <footer className="marginBottom-6 bp-1_marginBottom-12">
           <div className="container flex flex-justify--spaceBetween">

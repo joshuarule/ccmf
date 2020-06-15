@@ -5,7 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class BlogPostTemplate extends React.Component {
+class DefaultPageTemplate extends React.Component {
   render() {
     const pageData = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -13,16 +13,20 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title={post.frontmatter.title}
+          title={pageData.frontmatter.title}
         />
-        <h1>{pageData.frontmatter.title}</h1>
-        <MDXRenderer>{pageData.body}</MDXRenderer>
+        <div className="container">
+          <div className="width--3qtr">
+            <h1>{pageData.frontmatter.title}</h1>
+            <MDXRenderer>{pageData.body}</MDXRenderer>
+          </div>
+        </div>
       </Layout>
     )
   }
 }
 
-export default BlogPostTemplate
+export default DefaultPageTemplate
 
 export const pageQuery = graphql`
   query pageBySlug($slug: String!) {
