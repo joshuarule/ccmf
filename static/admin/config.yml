@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: static/assets
-public_folder: assets
+public_folder: /assets
 
 collections:
   - name: blog
@@ -19,11 +19,12 @@ collections:
   
   - label: "Pages"
     name: "pages"
-    folder: content/pages
-    path: '{{slug}}/index'
+    folder: 'content/pages'
+    slug: 'index'
+    path: '{{title}}/index'
     create: true
-    media_folder: './media'
-    public_folder: './media'
+    media_folder: ''
+    public_folder: ''
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
