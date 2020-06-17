@@ -26,4 +26,4 @@ Currently looking for:
 * A compost/topsoil blend would also be wonderful. 
 * Rebar (2 - 8ft)
 
-[Contact us](info@ccmicrofarm.org) to donate!
+[Contact us](mailto:info@ccmicrofarm.org) to donate!
