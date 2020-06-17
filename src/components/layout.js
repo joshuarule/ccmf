@@ -46,31 +46,31 @@ class Layout extends React.Component {
               </ul>
             </nav>
           </header>
-          <main className="flex--column">
+          <main>
             <MDXProvider components={shortcodes}>
               {children}
             </MDXProvider>
           </main>
-        </div>
-        <footer className="marginVertical-6 bp-1_marginBottom-12">
-          <div className="container ">
-            <div className={`bp-1_flex flex-justify--spaceBetween flex-align--end ${!isHome ? 'border--top' : ''}`}>
-              <div className="width--half marginBottom-8 bp-1_marginBottom-0">
-                <p className="h1 f-primary--italic marginBottom-0">
-                  "Growing fresh food for our neighbors, as far as the harvest will stretch"
-                </p>  
+          <footer className="paddingVertical-6 bp-1_paddingBottom-12">
+            <div className="container ">
+              <div className={`bp-1_flex flex-justify--spaceBetween flex-align--end ${!isHome ? 'border--top' : ''}`}>
+                <div className="width--half marginBottom-8 bp-1_marginBottom-0">
+                  <p className="h1 f-primary--italic marginBottom-0">
+                    "Growing fresh food for our neighbors, as far as the harvest will stretch"
+                  </p>  
+                </div>
+                <nav>
+                  <ul className="list--clean bp-1_t-right">
+                    <li><a className="block link--clean paddingBottom-4" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Spring & William  Catskill, NY</a></li>
+                    <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-1 inlineBlock" href="https://www.facebook.com/12414microfarm" target="_blank" rel="noopener noreferrer"><Icon name="facebook"/></a></li>
+                    <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-1 inlineBlock" href="mailto:catskill.community.micro.farm@gmail.com"><Icon name="instagram"/></a></li>
+                    <li className="inlineBlock"><a className="h2 link--clean paddingLeft-1 inlineBlock" href="https://instagram.com/catskillcommunitymicrofarm" target="_blank" rel="noopener noreferrer"><Icon name="email"/></a></li>
+                  </ul>
+                </nav>
               </div>
-              <nav>
-                <ul className="list--clean bp-1_t-right">
-                  <li><a className="block link--clean paddingBottom-4" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Spring & William  Catskill, NY</a></li>
-                  <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-1 inlineBlock" href="https://www.facebook.com/12414microfarm" target="_blank" rel="noopener noreferrer"><Icon name="facebook"/></a></li>
-                  <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-1 inlineBlock" href="mailto:catskill.community.micro.farm@gmail.com"><Icon name="instagram"/></a></li>
-                  <li className="inlineBlock"><a className="h2 link--clean paddingLeft-1 inlineBlock" href="https://instagram.com/catskillcommunitymicrofarm" target="_blank" rel="noopener noreferrer"><Icon name="email"/></a></li>
-                </ul>
-              </nav>
             </div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </>
     )
   }
