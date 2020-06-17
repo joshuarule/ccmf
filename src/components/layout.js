@@ -42,7 +42,7 @@ class Layout extends React.Component {
                 <li className="marginBottom-2"><Link className="inlineBlock" to="/wishlist/">Items we need</Link></li>
                 
                 <li className="marginBottom-2"><a className="inlineBlock" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join the newsletter</a></li>
-                <li className="marginBottom-2"><a className="inlineBlock" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Come work with us</a></li>
+                <li className="marginBottom-2"><a className="inlineBlock" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Volunteer with us</a></li>
               </ul>
             </nav>
           </header>
