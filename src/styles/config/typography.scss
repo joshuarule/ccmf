@@ -66,11 +66,12 @@ h4 {
   line-height: 0.875;
   
   @include bp-1 {
-    font-size: 72px;
+    font-size: 64px;
 
   }
 }
 
 .link--clean {
   text-decoration: none;
+  border: none;
 }

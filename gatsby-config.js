@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     // edit below
     title: `Catskill Community Micro Farm`,
-    author: `JoshuaRule`,
+    author: `ccmf`,
     description: `A volunteer run micro farm aiming to feed the local community`,
     siteUrl: `https://ccmicrofarm.org/`,
     social: {

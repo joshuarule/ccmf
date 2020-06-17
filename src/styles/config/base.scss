@@ -3,7 +3,7 @@
 }
 html, body {
     height: 100%;
-    background-color: var(--c-mint);
+    background-color: var(--c-brown);
     color: var(--c-white);
 }
 
@@ -15,7 +15,7 @@ img {
 }
 
 body {
-    @extend .h3;
+    @extend .h4;
     @extend .flex--column;
     
     font-family: var(--f-primary);
@@ -25,7 +25,6 @@ body {
     font-size: 20px;
     
     @include bp-1 {
-        font-size: 24px;
         // padding-top: var(--unit-8);
     }
     
@@ -47,6 +46,8 @@ main {
 
 a {
     color: var(--c-white);
+    text-decoration: none;
+    border-bottom: 1px solid var(--c-white);
 }
 
 svg {

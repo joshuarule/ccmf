@@ -21,12 +21,21 @@
 
 // FLEX
 .flex   { display: flex; }
+.bp-1_flex {
+
+  @include bp-1 {
+    display: flex;
+  }
+}
+
 .flex--column { 
   display: flex; 
   flex-direction: column;
 }
 
 .flex-1 { flex: 1 }
+
+
 
 .flex-align--end      { align-items: flex-end; }
 .flex-align--center   { align-items: center; }
@@ -42,6 +51,12 @@
 
 
 .t-center { text-align: center; }
+.t-right { text-align: right; }
+.bp-1_t-right {
+  @include bp-1 {
+    text-align: right;
+  }
+}
 .uppercase { text-transform: uppercase; }
 .textDecorationNone { text-decoration: none; }
 .underline          { text-decoration: underline; }
@@ -87,6 +102,11 @@
   @include bp-1 {
     width: 75%;
     min-width: 600px;
+  }
+}
+.width--half {
+  @include bp-1 {
+    width: 50%;
   }
 }
 
