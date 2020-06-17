@@ -7,7 +7,6 @@ description: Catskill Community Micro Farm Wishlist
 
 Currently looking for:
 
-* cherry tomatoes
 * bell peppers
 * collards 
 * winter squash
