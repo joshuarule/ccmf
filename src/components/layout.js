@@ -27,18 +27,14 @@ class Layout extends React.Component {
           </div>
         }
         <div className="flex-1 flex--column">
-          <header className="container marginTop-12">
+          <header className="container marginTop-4 bp-1_marginTop-12">
             <h1 
-              className="f-xxl marginBottom-10" 
-              style={{
-                marginTop: 0, 
-                marginBottom: `var(--unit-4)`, 
-              }}
+              className="f-xxl marginTop-1 bp-1_marginBottom-10"
             >
               <Link className="link--clean" to="/">Catskill<br/>Community<br/>Micro Farm</Link>
             </h1>
             <nav 
-              className={`flex flex-justify--spaceBetween paddingBottom-10 marginBottom-5 ${!isHome ? 'border--bottom' : ''}`}
+              className={`flex flex-justify--spaceBetween paddingBottom-5 marginBottom-1 bp-1_paddingBottom-10 bp-1_marginBottom-5 ${!isHome ? 'border--bottom' : ''}`}
               // style={{borderTop: '1px solid rgba(255,255,255,.5)', width: '100%'}}
             >
               <ul className="list--clean">
@@ -66,7 +62,7 @@ class Layout extends React.Component {
               </div>
               <nav>
                 <ul className="list--clean bp-1_t-right">
-                  <li><a className="h2 block link--clean paddingBottom-2" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Spring & William  Catskill, NY</a></li>
+                  <li><a className="block link--clean paddingBottom-4" href="https://goo.gl/maps/RLiLz5aHTGSXENav7" target="_blank" rel="noopener noreferrer">Spring & William  Catskill, NY</a></li>
                   <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-1 inlineBlock" href="https://www.facebook.com/12414microfarm" target="_blank" rel="noopener noreferrer"><Icon name="facebook"/></a></li>
                   <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-1 inlineBlock" href="mailto:catskill.community.micro.farm@gmail.com"><Icon name="instagram"/></a></li>
                   <li className="inlineBlock"><a className="h2 link--clean paddingLeft-1 inlineBlock" href="https://instagram.com/catskillcommunitymicrofarm" target="_blank" rel="noopener noreferrer"><Icon name="email"/></a></li>
