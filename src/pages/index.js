@@ -8,7 +8,8 @@ import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 const SlideImage = ({image}) => (
   <div style={{objectPosition: 'left top'}} className="flex-1 fit--cover">
     <Img
-      fluid={image.childImageSharp.fluid}
+      // fluid={image.childImageSharp.fluid}
+      fixed={image}
       alt="raised beds at catskill farm"
     />
   </div>
@@ -17,7 +18,7 @@ const SlideImage = ({image}) => (
 class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
-    console.log(data.images);
+    const images = data.carousel.frontmatter.carouselImages;
     const backgroundImage = data.file;
 
     return (
@@ -32,7 +33,7 @@ class IndexPage extends React.Component {
         {backgroundImage && 
           <div className="fill zIndex-1--neg flex home-bg">
             <CarouselProvider
-              totalSlides={3}
+              totalSlides={images.length}
               touchEnabled={false}
               dragEnabled={false}
               infinite={true}
@@ -40,10 +41,11 @@ class IndexPage extends React.Component {
               isPlaying={true}
             >
               <Slider>
-                {/* loop */}
-                <Slide index={0}><SlideImage image={backgroundImage} /></Slide>
-                <Slide index={1}><SlideImage image={backgroundImage} /></Slide>
-                <Slide index={2}><SlideImage image={backgroundImage} /></Slide>
+                {images.map((slide, i) => {
+                  return (
+                    <Slide index={i} key={i}><SlideImage image={slide.image} /></Slide>
+                  )
+                })}
               </Slider>
             </CarouselProvider>
           </div>
@@ -59,6 +61,13 @@ export const pageQuery = graphql`
   query homeQuery {
     mdx(frontmatter: {templateKey: {eq: "home-page"}}) {
       body
+    }
+    carousel: mdx(frontmatter: {key: {eq: "carousel"}}) {
+      frontmatter {
+        carouselImages {
+          image
+        }
+      }
     }
     file(relativePath: {eq: "main-image.jpg"}) {
       childImageSharp {
