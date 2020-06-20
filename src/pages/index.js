@@ -58,9 +58,6 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query homeQuery {
-    mdx(frontmatter: {templateKey: {eq: "home-page"}}) {
-      body
-    }
     file(relativePath: {eq: "main-image.jpg"}) {
       childImageSharp {
         fluid {
