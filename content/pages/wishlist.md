@@ -17,13 +17,13 @@ Currently looking for:
 
 * Remay/row cover
 * Drip Tape (holes ok)
-* Trellising twine (tomatoes)
+* Trellising twine
 * Wax boxes
 * plastic wash/pack bins
 * 5 gallon buckets
 * Black plastic water tubs: 50-100 gallon tubs (Metal is okay, but plastic is preferred)
-* Finished Compost, and as much as possible: Finished compost to build raised beds. Finished compost has everything decomposed and ready for immediate planting. 
+* Finished Compost 
 * A compost/topsoil blend would also be wonderful. 
 * Rebar (2 - 8ft)
 
-[Contact us](mailto:info@ccmicrofarm.org) to donate!
+[Contact us to donate!](mailto:info@ccmicrofarm.org)

@@ -6,17 +6,6 @@ media_folder: content/assets
 public_folder: ../assets
 
 collections:
-  # - name: blog
-  #   label: Blog
-  #   folder: content/blog
-  #   create: true
-  #   fields:
-  #     - { name: path, label: Path }
-  #     - { name: date, label: Date, widget: date }
-  #     - { name: title, label: Title }
-  #     - { name: description, label: Description }
-  #     - { name: body, label: Body, widget: markdown }
-  
   - label: "Pages"
     name: "pages"
     folder: 'content/pages'
@@ -30,3 +19,21 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+  
+  - name: 'global'
+    label: 'Global Settings'
+    delete: false
+    editor: 
+      preview: false
+    files:
+      - name: "carousel"
+        label: "Carousel"
+        file: 'content/settings/carousel.json'
+        description: 'Home Page Carousel Images'
+        fields:
+          - { label: "Site Title", name: "siteTitle", widget: "string" } 
+          # - label: "Images"
+          #   name: "carouselImages"
+          #   widget: "list"
+          #   summary: '{{fields.image}}'
+          #   field: {label: Image, name: image, widget: image}

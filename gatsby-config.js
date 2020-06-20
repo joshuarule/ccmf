@@ -17,11 +17,19 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    "gatsby-transformer-json",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/pages`,
         name: `pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/settings`,
+        name: `settings`,
       },
     },
     {

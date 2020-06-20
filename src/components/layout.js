@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby"
-import Img from 'gatsby-image';
 import {MDXProvider} from "@mdx-js/react";
 
 import Button from "./Button"
@@ -11,21 +10,11 @@ const shortcodes = { Button }
 
 class Layout extends React.Component {
   render() {
-    const { children, backgroundImage, location } = this.props;
+    const { children, location, className } = this.props;
     const isHome = location.pathname === '/';
       
     return (
       <>
-        {backgroundImage && 
-          <div className="fill zIndex-1--neg flex home-bg">
-            <div style={{objectPosition: 'left top'}} className="flex-1 fit--cover">
-              <Img
-                fluid={backgroundImage.childImageSharp.fluid}
-                alt="raised beds at catskill farm"
-              />
-            </div>
-          </div>
-        }
         <div className="flex-1 flex--column">
           <header className="container marginTop-4 bp-1_marginTop-12">
             <h1 
@@ -46,7 +35,7 @@ class Layout extends React.Component {
               </ul>
             </nav>
           </header>
-          <main>
+          <main className={className}>
             <MDXProvider components={shortcodes}>
               {children}
             </MDXProvider>
