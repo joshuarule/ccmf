@@ -32,9 +32,8 @@ collections:
         file: 'content/settings/carousel.json'
         description: 'Home Page Carousel Images'
         fields:
-          - { label: "Site Title", name: "siteTitle", widget: "string" } 
-          # - label: "Images"
-          #   name: "carouselImages"
-          #   widget: "list"
-          #   summary: '{{fields.image}}'
-          #   field: {label: Image, name: image, widget: image}
+          - label: "Images"
+            name: "carouselImages"
+            widget: "list"
+            summary: '{{fields.image}}'
+            field: {label: Image, name: image, widget: image}
