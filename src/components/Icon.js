@@ -26,8 +26,8 @@ const Facebook = ({width = 40, height = 40, className, style, viewBox = "0 0 48 
 
 const Email = ({width = 40, height = 40, className, style, viewBox = "0 0 98 98"}) => (
   <svg className={`${className}`} width={width} height={height} style={style} viewBox={viewBox} xmlns="http://www.w3.org/2000/svg">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="noun_Mail_1058930" fill-rule="nonzero">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="noun_Mail_1058930" fillRule="nonzero">
             <path d="M49,0 C21.9,0 0,21.9 0,49 C0,76.1 21.9,98 49,98 C76.1,98 98,76.1 98,49 C98,21.9 76.1,0 49,0 Z" id="Path" fill="currentColor"></path>
             <path d="M76,68.8 C76,69.1 75.8,69.3 75.5,69.3 L22.5,69.3 C22.2,69.3 22,69.1 22,68.8 L22,32 C22,31.6 22.5,31.4 22.8,31.6 L48.7,53.1 C48.9,53.2 49.1,53.2 49.3,53.1 L75.2,31.6 C75.5,31.4 76,31.6 76,32 L76,68.8 Z" id="Path" fill="#000"></path>
             <path d="M22.5,28.7 L75.4,28.7 C75.8,28.7 76,29.3 75.7,29.5 L49.3,51.6 C49.1,51.7 48.9,51.7 48.7,51.6 L22.2,29.5 C21.9,29.3 22.1,28.7 22.5,28.7 Z" id="Path" fill="#000"></path>
