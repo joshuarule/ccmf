@@ -8,8 +8,8 @@ import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 const SlideImage = ({image}) => (
   <div style={{objectPosition: 'left top'}} className="flex-1 fit--cover">
     <Img
-      // fluid={image.childImageSharp.fluid}
-      fixed={image}
+      fluid={image.childImageSharp.fluid}
+      // fixed={image}
       alt="raised beds at catskill farm"
     />
   </div>
@@ -18,7 +18,7 @@ const SlideImage = ({image}) => (
 class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
-    const images = data.carousel.frontmatter.carouselImages;
+    // const images = data.carousel.frontmatter.carouselImages;
     const backgroundImage = data.file;
 
     return (
@@ -32,8 +32,9 @@ class IndexPage extends React.Component {
         />
         {backgroundImage && 
           <div className="fill zIndex-1--neg flex home-bg">
+
             <CarouselProvider
-              totalSlides={images.length}
+              totalSlides={1}
               touchEnabled={false}
               dragEnabled={false}
               infinite={true}
@@ -41,11 +42,12 @@ class IndexPage extends React.Component {
               isPlaying={true}
             >
               <Slider>
-                {images.map((slide, i) => {
+                <Slide index={0}><SlideImage image={data.file} /></Slide>
+                {/* {images.map((slide, i) => {
                   return (
-                    <Slide index={i} key={i}><SlideImage image={slide.image} /></Slide>
+                    <Slide index={i} key={i}><SlideImage image={data.file} /></Slide>
                   )
-                })}
+                })} */}
               </Slider>
             </CarouselProvider>
           </div>
@@ -62,13 +64,6 @@ export const pageQuery = graphql`
     mdx(frontmatter: {templateKey: {eq: "home-page"}}) {
       body
     }
-    carousel: mdx(frontmatter: {key: {eq: "carousel"}}) {
-      frontmatter {
-        carouselImages {
-          image
-        }
-      }
-    }
     file(relativePath: {eq: "main-image.jpg"}) {
       childImageSharp {
         fluid {
@@ -82,3 +77,10 @@ export const pageQuery = graphql`
     }
   }
 `
+// carousel: mdx(frontmatter: {key: {eq: "carousel"}}) {
+//   frontmatter {
+//     carouselImages {
+//       image
+//     }
+//   }
+// }
