@@ -31,8 +31,6 @@ class IndexPage extends React.Component {
         {backgroundImage && 
           <div className="fill zIndex-1--neg flex home-bg">
             <CarouselProvider
-              naturalSlideWidth={100}
-              naturalSlideHeight={125}
               totalSlides={3}
               touchEnabled={false}
               dragEnabled={false}
@@ -58,6 +56,9 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query homeQuery {
+    mdx(frontmatter: {templateKey: {eq: "home-page"}}) {
+      body
+    }
     file(relativePath: {eq: "main-image.jpg"}) {
       childImageSharp {
         fluid {

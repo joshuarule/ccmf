@@ -13,6 +13,7 @@
 }
 
 .carousel__slider-tray {
+  margin: 0;
   width: 100% !important;
   position: relative;
   transition: none !important;
@@ -28,6 +29,7 @@
   opacity: 0;
   transform: scale(1.2);
   width: 100% !important;
+  display: flex !important;
   transition: all 1.5s ease-in-out !important;
   
   &.carousel__slide--visible {
@@ -37,6 +39,7 @@
 }
 
 .carousel__inner-slide {  
+  flex: 1;
   display: flex !important;
 }
 

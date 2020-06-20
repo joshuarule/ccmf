@@ -19,6 +19,7 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+      - { label: "Template Key", name: "templateKey", widget: "hidden", }
   
   - name: 'global'
     label: 'Global Settings'
