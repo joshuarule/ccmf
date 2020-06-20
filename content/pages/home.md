@@ -1,10 +1,7 @@
 ---
-title: Home
 path: /
-description: "Catskill Community Micro Farm"
-templateKey: 'home-page'
+title: Home
+description: Catskill Community Micro Farm
 ---
 
 "Growing fresh food for our neighbors,<br/> as far as the harvest will stretch"
-
-<Button label="See The Farm" />
