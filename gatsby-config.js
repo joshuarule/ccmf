@@ -17,7 +17,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    "gatsby-transformer-json",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
