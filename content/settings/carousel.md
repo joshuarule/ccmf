@@ -1,5 +1,6 @@
 ---
 key: carousel
-carouselImages: 
+carouselImages:
+  - image: /../assets/r-web-type-ramp-v04.jpg
 ---
 
