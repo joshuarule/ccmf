@@ -17,6 +17,7 @@ const SlideImage = ({image}) => (
 class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
+    console.log(data.images);
     const backgroundImage = data.file;
 
     return (
