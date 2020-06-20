@@ -1,3 +1,6 @@
 {
-  "siteTitle": "BC–OA Site Title"
+  "carouselImages": [
+    "/../assets/main-image.jpg",
+    "/../assets/ccmf-group-1-.jpg"
+  ]
 }
