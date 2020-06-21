@@ -23,14 +23,16 @@ collections:
   - name: 'global'
     label: 'Global Settings'
     delete: false
+    folder: 'content/settings'
+    path: '{{path}}/index'
+    media_folder: ''
+    public_folder: ''
     editor: 
       preview: false
     files:
       - name: "carousel"
         label: "Carousel"
-        media_folder: ''
-        public_folder: ''
-        file: 'content/settings/carousel.md'
+        file: 'index.md'
         description: 'Home Page Carousel Images'
         fields:
           - { label: "Key", name: "key", widget: "hidden" }
