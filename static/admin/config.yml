@@ -9,7 +9,6 @@ collections:
   - label: "Pages"
     name: "pages"
     folder: 'content/pages'
-    slug: '{{path}}'
     path: '{{path}}/index'
     create: true
     media_folder: ''
