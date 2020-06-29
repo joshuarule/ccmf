@@ -1,6 +1,11 @@
 ---
 key: carousel
 carouselImages:
-  - image: r-web-type-ramp-v04.jpg
-  - image: salty_egg.jpg
+  - image: main-image.jpg
+  - image: mulch-delivery.jpg
+  - image: lettuce-seedlings.jpg
+  - image: planting-lettuce.jpg
+  - image: volunteers-harvesting.jpg
+  - image: raised-beds.jpg
+  - image: washed-harvest.jpg
 ---
