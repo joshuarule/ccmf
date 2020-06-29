@@ -11,7 +11,11 @@ class Blog extends React.Component {
     const posts = data.allFile.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout 
+        location={this.props.location} 
+        title={siteTitle}
+        className="container"
+      >
         <SEO title="All posts" />
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
