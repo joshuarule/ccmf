@@ -20,19 +20,30 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { label: "Template Key", name: "templateKey", widget: "hidden", }
   
+  - name: blog
+    label: Blog
+    folder: content/blog
+    media_folder: ''
+    public_folder: ''
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+
   - name: 'global'
     label: 'Global Settings'
     delete: false
-    folder: 'content/settings'
-    path: '{{path}}/index'
-    media_folder: ''
-    public_folder: ''
     editor: 
       preview: false
     files:
       - name: "carousel"
         label: "Carousel"
-        file: 'index.md'
+        media_folder: ''
+        public_folder: ''
+        file: 'content/settings/carousel/index.md'
         description: 'Home Page Carousel Images'
         fields:
           - { label: "Key", name: "key", widget: "hidden" }

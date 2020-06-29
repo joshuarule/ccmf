@@ -3,6 +3,44 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+  
+  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPosts = await graphql(`{
+    allFile(filter: {sourceInstanceName: {eq: "blog"}}) {
+      edges {
+        node {
+          childMdx {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }}`
+  );
+
+  // blogPosts.forEach(post => console.log(post));
+  const posts = blogPosts.data.allFile.edges;
+
+  posts.forEach((post, index) => {
+    if(!post.node.childMdx) return;
+    const previous = index === posts.length - 1 ? null : posts[index + 1].node.childMdx
+    const next = index === 0 ? null : posts[index - 1].node.childMdx
+
+    createPage({
+      path: `blog${post.node.childMdx.fields.slug}`,
+      component: blogPost,
+      context: {
+        slug: post.node.childMdx.fields.slug,
+        previous,
+        next,
+      },
+    })
+  })
+
 
   const pagesContent = await graphql(`
     query {
