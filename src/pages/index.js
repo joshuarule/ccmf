@@ -9,7 +9,6 @@ const SlideImage = ({image}) => (
   <div style={{objectPosition: 'left top'}} className="flex-1 fit--cover">
     <Img
       fluid={image.childImageSharp.fluid}
-      // fixed={image}
       alt="raised beds at catskill farm"
     />
   </div>

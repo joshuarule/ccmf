@@ -22,6 +22,8 @@ collections:
   
   - name: blog
     label: Blog
+    media_folder: ''
+    public_folder: ''
     folder: content/blog
     path: '{{path}}/index'
     create: true
@@ -37,6 +39,8 @@ collections:
     delete: false
     editor: 
       preview: false
+    media_folder: ''
+    public_folder: ''
     files:
       - name: "carousel"
         label: "Carousel"
