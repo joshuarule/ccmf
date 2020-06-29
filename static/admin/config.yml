@@ -23,8 +23,6 @@ collections:
   - name: blog
     label: Blog
     folder: content/blog
-    media_folder: ''
-    public_folder: ''
     create: true
     fields:
       - { name: path, label: Path }
