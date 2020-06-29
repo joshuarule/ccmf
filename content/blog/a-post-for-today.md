@@ -5,3 +5,5 @@ title: A post for today
 description: description
 ---
 body
+
+![salty egg](salty_egg.jpg "salty egg")
