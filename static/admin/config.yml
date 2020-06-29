@@ -40,8 +40,6 @@ collections:
     files:
       - name: "carousel"
         label: "Carousel"
-        media_folder: ''
-        public_folder: ''
         file: 'content/settings/carousel/index.md'
         description: 'Home Page Carousel Images'
         fields:
