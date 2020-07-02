@@ -39,8 +39,6 @@ collections:
     delete: false
     editor: 
       preview: false
-    media_folder: ''
-    public_folder: ''
     files:
       - name: "carousel"
         label: "Carousel"
