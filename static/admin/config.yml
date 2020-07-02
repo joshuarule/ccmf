@@ -46,6 +46,8 @@ collections:
         label: "Carousel"
         file: 'content/settings/carousel/index.md'
         description: 'Home Page Carousel Images'
+        media_folder: ''
+        public_folder: ''
         fields:
           - { label: "Key", name: "key", widget: "hidden" }
           - label: "Images"
