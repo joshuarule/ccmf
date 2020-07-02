@@ -54,3 +54,6 @@ collections:
             summary: '{{fields.image}}'
             fields: 
               - { label: "Image", name: "image", widget: "image" }
+              - { name: alt, label: Alt Text, widget: "text" }
+              - { name: author, label: Photographer Name, widget: "text", default: "Jane Doe Photos" }
+              - { name: instagram, label: Instagram, widget: "text", default: "janeDoePhotos" }
