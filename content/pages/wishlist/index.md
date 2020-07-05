@@ -7,23 +7,19 @@ description: Catskill Community Micro Farm Wishlist
 
 Currently looking for:
 
-* bell peppers
+* lettuce starts - plugs, not seeds please
+* kale
 * collards 
-* winter squash
-* spinach
-* cucumbers
+* winter squash - butternut, delicata, kabocha, acorn
+* cabbage
 
 ## Supplies
 
 * Remay/row cover
 * Drip Tape (holes ok)
-* Trellising twine
 * Wax boxes
 * plastic wash/pack bins
 * 5 gallon buckets
 * Black plastic water tubs: 50-100 gallon tubs (Metal is okay, but plastic is preferred)
-* Finished Compost 
-* A compost/topsoil blend would also be wonderful. 
-* Rebar (2 - 8ft)
 
 [Contact us to donate!](mailto:info@ccmicrofarm.org)
