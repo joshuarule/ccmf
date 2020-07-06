@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Catskill Community Micro Farm`,
     author: `ccmf`,
-    description: `A volunteer run micro farm aiming to feed the local community`,
+    description: `A volunteer run micro farm aiming to feed the local Catskill community`,
     siteUrl: `https://ccmicrofarm.org/`,
     social: {
       instagram: `catskillcommunitymicrofarm`,
