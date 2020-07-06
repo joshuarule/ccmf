@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `${title} | ${site.siteMetadata.title}`,
         },
         {
+          property: `og:image`,
+          content: file.childImageSharp.fixed.src,
+        },
+        {
           property: `twitter:image`,
           content: file.childImageSharp.fixed.src,
         },
