@@ -50,14 +50,14 @@ class NewsPostTemplate extends React.Component {
               >
                 <li>
                   {previous && (
-                    <Link to={`/blog${previous.fields.slug}`} rel="prev">
+                    <Link to={`/news${previous.fields.slug}`} rel="prev">
                       ← {previous.frontmatter.title}
                     </Link>
                   )}
                 </li>
                 <li>
                   {next && (
-                    <Link to={`/blog${next.fields.slug}`} rel="next">
+                    <Link to={`/news${next.fields.slug}`} rel="next">
                       {next.frontmatter.title} →
                     </Link>
                   )}
