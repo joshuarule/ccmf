@@ -11,7 +11,6 @@ class NewsPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
     const hasSiblingPosts = next || previous;
-    console.log(this.props.pageContext);
 
     return (
       <Layout 
@@ -90,6 +89,23 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        thumbnail {
+          alt
+          image {
+            childImageSharp {
+              fluid {
+                aspectRatio
+                base64
+                sizes
+                src
+                srcSet
+              }
+              fixed(width: 1200, height: 630) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
       }
     }
   }

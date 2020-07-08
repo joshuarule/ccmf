@@ -25,12 +25,11 @@ class News extends React.Component {
             const frontmatter = node.childMdx.frontmatter;
             const title = frontmatter.title || node.childMdx.fields.slug
             return (
-              <article>
+              <article key={node.childMdx.fields.slug}>
                 <Link
                   style={{ boxShadow: `none` }}
                   to={`/news${node.childMdx.fields.slug}`}
                   className="link--clean img-animate-hover--zoom"
-                  key={node.childMdx.fields.slug}
                 >
                   <figure className="ratio-16x9 margin-0">
                     <Img
