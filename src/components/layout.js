@@ -32,6 +32,7 @@ class Layout extends React.Component {
                 
                 <li className="marginBottom-2"><a className="inlineBlock" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join the newsletter</a></li>
                 <li className="marginBottom-2"><a className="inlineBlock" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Volunteer with us</a></li>
+                <li className="marginBottom-2"><Link className="inlineBlock" to="/news/">News</Link></li>
               </ul>
             </nav>
           </header>
@@ -40,7 +41,7 @@ class Layout extends React.Component {
               {children}
             </MDXProvider>
           </main>
-          <footer className="paddingVertical-6 bp-1_paddingBottom-12">
+          <footer className="paddingVertical-6 bp-1_paddingBottom-12 marginTop-15">
             <div className="container ">
               <div className={`bp-1_flex flex-justify--spaceBetween flex-align--end ${!isHome ? 'border--top' : ''}`}>
                 <div className="width--half marginBottom-8 bp-1_marginBottom-0">

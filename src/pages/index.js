@@ -5,12 +5,19 @@ import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 
-const SlideImage = ({image}) => (
+const SlideImage = ({image, alt}) => (
   <div style={{objectPosition: 'left top'}} className="flex-1 fit--cover">
     <Img
       fluid={image.childImageSharp.fluid}
-      alt="raised beds at catskill farm"
+      alt={alt || 'image from catskill community micro farm'}
     />
+  </div>
+)
+
+const SlideCredits = ({data}) => (
+  <div style={{position: 'absolute', zIndex: 1}}>
+    {data.author && <p>{data.author}</p>}
+    {data.instagram && <a href={`https://instagram.com/${data.instagram}`}>@{data.instagram}</a>}
   </div>
 )
 
@@ -39,13 +46,14 @@ class IndexPage extends React.Component {
               dragEnabled={false}
               infinite={true}
               isIntrinsicHeight={true}
-              isPlaying={true}
+              isPlaying={false}
             >
               <Slider>
                 {images.map((slide, i) => {
                   return (
                     <Slide index={i} key={i}>
-                      <SlideImage image={slide.image} />
+                      <SlideImage image={slide.image} alt={slide.alt} />
+                      {/* <SlideCredits data={slide} /> */}
                     </Slide>
                   )
                 })}
@@ -68,6 +76,9 @@ export const pageQuery = graphql`
     carousel: mdx(frontmatter: {key: {eq: "carousel"}}) {
       frontmatter {
         carouselImages {
+          alt
+          author
+          instagram
           image {
             childImageSharp {
               fluid {

@@ -1,0 +1,29 @@
+.ratio-16x9 {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-top: (9 / 16) * 100%;
+  display: flex;
+  overflow: hidden;
+
+  .gatsby-image-wrapper {
+    position: absolute !important;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.img-animate-hover--zoom {
+
+  .gatsby-image-wrapper {
+    transition: all .3s ease-in-out;
+  }
+
+  &:hover {
+    .gatsby-image-wrapper {
+      transform: scale(1.1);
+    }
+  }
+}

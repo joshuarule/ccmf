@@ -20,11 +20,11 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { label: "Template Key", name: "templateKey", widget: "hidden", }
   
-  - name: blog
-    label: Blog
+  - name: news
+    label: News
     media_folder: ''
     public_folder: ''
-    folder: content/blog
+    folder: content/news
     path: '{{path}}/index'
     create: true
     fields:
