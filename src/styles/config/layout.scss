@@ -5,12 +5,6 @@
   }
 }
 
-.col-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: var(--unit-5);
-}
-
 // breakpoints
 
 $breakpoints: '', bp-1, bp-2;
@@ -44,6 +38,19 @@ $bp-2-width: 1024px;
 @mixin only_bp-menuSmall {
   @media (max-width: #{$bp-menuWidth - 1}) {
     @content;
+  }
+}
+
+.col-3 {
+  @include bp-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: var(--unit-5);
+  }
+  @include bp-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--unit-5);
   }
 }
 

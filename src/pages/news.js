@@ -25,7 +25,7 @@ class News extends React.Component {
             const frontmatter = node.childMdx.frontmatter;
             const title = frontmatter.title || node.childMdx.fields.slug
             return (
-              <article key={node.childMdx.fields.slug}>
+              <article key={node.childMdx.fields.slug} className="marginBottom-10">
                 <Link
                   style={{ boxShadow: `none` }}
                   to={`/news${node.childMdx.fields.slug}`}
