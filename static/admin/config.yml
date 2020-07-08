@@ -36,7 +36,7 @@ collections:
         widget: object
         fields:
           - { label: "Image", name: "image", widget: "image" }
-          - { name: alt, label: Alt Text, widget: "text" }
+          - { name: alt, label: Alt Text, widget: "string" }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
 
