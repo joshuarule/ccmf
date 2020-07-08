@@ -31,6 +31,12 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - name: thumbnail 
+        label: Post Thumbnail 
+        widget: object
+        fields:
+          - { label: "Image", name: "image", widget: "image" }
+          - { name: alt, label: Alt Text, widget: "text" }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
 

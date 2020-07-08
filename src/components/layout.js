@@ -24,15 +24,13 @@ class Layout extends React.Component {
             </h1>
             <nav 
               className={`flex flex-justify--spaceBetween paddingBottom-5 marginBottom-1 bp-1_paddingBottom-10 bp-1_marginBottom-5 ${!isHome ? 'border--bottom' : ''}`}
-              // style={{borderTop: '1px solid rgba(255,255,255,.5)', width: '100%'}}
             >
               <ul className="list--clean">
-                <li className="marginBottom-2"><Link className="inlineBlock" to="/about/">About</Link></li>
-                <li className="marginBottom-2"><Link className="inlineBlock" to="/wishlist/">Items we need</Link></li>
-                
+                <li className="marginBottom-2"><Link className="inlineBlock" activeClassName="link--clean" to="/about/">About</Link></li>
+                <li className="marginBottom-2"><Link className="inlineBlock" activeClassName="link--clean" to="/wishlist/">Items we need</Link></li>
                 <li className="marginBottom-2"><a className="inlineBlock" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join the newsletter</a></li>
                 <li className="marginBottom-2"><a className="inlineBlock" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Volunteer with us</a></li>
-                <li className="marginBottom-2"><Link className="inlineBlock" to="/news/">News</Link></li>
+                <li className="marginBottom-2"><Link className="inlineBlock" activeClassName="link--clean" to="/news/">News</Link></li>
               </ul>
             </nav>
           </header>
