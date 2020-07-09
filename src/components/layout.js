@@ -27,11 +27,11 @@ class Layout extends React.Component {
                 className={`flex flex-justify--spaceBetween paddingBottom-5 marginBottom-1`}
               >
                 <ul className={`list--clean ${!isHome ? 'bp-1_t-right' : ''}`}>
-                  <li className="marginBottom-2"><Link className="inlineBlock" activeClassName="link--active" to="/about/">About</Link></li>
-                  <li className="marginBottom-2"><Link className="inlineBlock" activeClassName="link--active" to="/news/">News</Link></li>
-                  <li className="marginBottom-2"><Link className="inlineBlock" activeClassName="link--active" to="/wishlist/">Items needed</Link></li>
-                  <li className="marginBottom-2"><a className="inlineBlock" href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Volunteer</a></li>
-                  <li className="marginBottom-2"><a className="inlineBlock" href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join our newsletter</a></li>
+                  <li className="marginBottom-2"><Link activeClassName="link--active" to="/about/">About</Link></li>
+                  <li className="marginBottom-2"><Link activeClassName="link--active" to="/news/">News</Link></li>
+                  <li className="marginBottom-2"><Link activeClassName="link--active" to="/wishlist/">Items needed</Link></li>
+                  <li className="marginBottom-2"><a href="https://forms.gle/uWkdaTd5AecLJcf5A" target="_blank" rel="noopener noreferrer">Volunteer</a></li>
+                  <li className="marginBottom-2"><a href="http://eepurl.com/g4deTf" target="_blank" rel="noopener noreferrer">Join our newsletter</a></li>
                 </ul>
               </nav>
             </div>
