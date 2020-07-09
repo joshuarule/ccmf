@@ -16,7 +16,7 @@ class DefaultPageTemplate extends React.Component {
           title={pageData.frontmatter.title}
         />
         <div className="container">
-          <div className="width--half">
+          <div className="width--2thirds">
             <h1>{pageData.frontmatter.title}</h1>
             <MDXRenderer>{pageData.body}</MDXRenderer>
           </div>

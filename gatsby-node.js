@@ -12,6 +12,20 @@ exports.createPages = async ({ graphql, actions }) => {
           childMdx {
             frontmatter {
               title
+              thumbnail {
+                alt
+                image {
+                  childImageSharp {
+                    fluid {
+                      aspectRatio
+                      base64
+                      sizes
+                      src
+                      srcSet
+                    }
+                  }
+                }
+              }
             }
             fields {
               slug

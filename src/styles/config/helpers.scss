@@ -105,6 +105,12 @@
     min-width: 600px;
   }
 }
+.width--2thirds {
+  @include bp-1 {
+    width: 66.66666%;
+    min-width: 600px;
+  }
+}
 .width--half {
   @include bp-1 {
     width: 50%;

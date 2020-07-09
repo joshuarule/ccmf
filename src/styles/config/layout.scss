@@ -54,6 +54,14 @@ $bp-2-width: 1024px;
   }
 }
 
+.col-2 {
+  @include bp-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: var(--unit-5);
+  }
+}
+
 // Functions
 
 @function uncapitalize($string) {

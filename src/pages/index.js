@@ -25,7 +25,6 @@ class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
     const images = data.carousel.frontmatter.carouselImages;
-    console.log(images);
     const backgroundImage = data.file;
 
     return (
@@ -46,7 +45,7 @@ class IndexPage extends React.Component {
               dragEnabled={false}
               infinite={true}
               isIntrinsicHeight={true}
-              isPlaying={false}
+              isPlaying={true}
             >
               <Slider>
                 {images.map((slide, i) => {

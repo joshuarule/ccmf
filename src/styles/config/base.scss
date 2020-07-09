@@ -44,6 +44,11 @@ a {
     color: var(--c-white);
     text-decoration: none;
     border-bottom: 1px solid var(--c-white);
+    transition: border-color .2s ease-in-out;
+
+    &:hover {
+        border-color: transparent;
+    }
 }
 
 svg {

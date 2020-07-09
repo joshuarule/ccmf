@@ -2,7 +2,7 @@ import React, {Fragment} from 'react'
 
 
 
-const Instagram = ({width = 40, height = 40, className, style, viewBox = "0 0 67 67"}) => (
+const Instagram = ({width = 40, height = 40, className, style, viewBox = "3 4 60 60"}) => (
   <svg className={`${className}`} width={width} height={height} style={style} viewBox={viewBox} xmlns="http://www.w3.org/2000/svg">
     <path
         fill="currentColor"

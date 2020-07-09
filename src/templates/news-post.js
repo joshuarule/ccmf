@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from 'gatsby-image';
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/layout"
@@ -10,6 +11,7 @@ class NewsPostTemplate extends React.Component {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    console.log(previous);
     const hasSiblingPosts = next || previous;
 
     return (
@@ -22,7 +24,7 @@ class NewsPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article className="width--half">
+        <article className="width--2thirds">
           <h1 className="marginBottom-1">{post.frontmatter.title}</h1>
           <small
             style={{
@@ -39,27 +41,35 @@ class NewsPostTemplate extends React.Component {
             <nav>       
               <h2>More posts</h2>
               <hr/>
-              <ul
-                style={{
-                  display: `flex`,
-                  flexWrap: `wrap`,
-                  justifyContent: `space-between`,
-                  listStyle: `none`,
-                  padding: 0,
-                }}
-              >
+              <ul className="col-2 list--clean">
                 <li>
                   {previous && (
-                    <Link to={`/news${previous.fields.slug}`} rel="prev">
-                      ← {previous.frontmatter.title}
-                    </Link>
+                    <aside>
+                      <Link to={`/news${previous.fields.slug}`} rel="prev">
+                        <figure className="ratio-16x9 margin-0 img-animate-hover--zoom">
+                          <Img
+                            fluid={previous.frontmatter.thumbnail.image.childImageSharp.fluid}
+                            alt={previous.frontmatter.thumbnail.alt}
+                          />
+                        </figure>
+                        <span className="marginTop-1 inlineBlock">← {previous.frontmatter.title}</span>
+                      </Link>
+                    </aside>
                   )}
                 </li>
                 <li>
                   {next && (
-                    <Link to={`/news${next.fields.slug}`} rel="next">
-                      {next.frontmatter.title} →
-                    </Link>
+                    <aside>
+                      <Link to={`/news${next.fields.slug}`} rel="next">
+                        <figure className="ratio-16x9 margin-0 marginBottom-1 img-animate-hover--zoom">
+                          <Img
+                            fluid={next.frontmatter.thumbnail.image.childImageSharp.fluid}
+                            alt={next.frontmatter.thumbnail.alt}
+                          />
+                        </figure>
+                        <span className="marginTop-1 inlineBlock">← {next.frontmatter.title}</span>
+                      </Link>
+                    </aside>
                   )}
                 </li>
               </ul>
