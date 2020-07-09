@@ -1,7 +1,7 @@
 ---
 path: third harvest
 date: 2020-07-08T14:34:42.663Z
-title: Third Harvest Donated
+title: Third Harvest Donated to Catskill Community Center
 thumbnail:
   image: harvest.jpg
   alt: Catskill Community Micro Farm harvest
