@@ -39,20 +39,20 @@ class NewsPostTemplate extends React.Component {
           </div>
           {hasSiblingPosts &&
             <nav>       
-              <h2>More posts</h2>
+              <h2 className="marginBottom-1">Other news</h2>
               <hr/>
-              <ul className="col-2 list--clean">
+              <ul className="col-2 list--clean marginTop-6">
                 <li>
                   {previous && (
                     <aside>
                       <Link to={`/news${previous.fields.slug}`} rel="prev">
-                        <figure className="ratio-16x9 margin-0 img-animate-hover--zoom">
+                        <figure className="ratio-16x9 marginTop-0 marginLeft-0 marginRight-0 marginBottom-2 img-animate-hover--zoom">
                           <Img
                             fluid={previous.frontmatter.thumbnail.image.childImageSharp.fluid}
                             alt={previous.frontmatter.thumbnail.alt}
                           />
                         </figure>
-                        <span className="marginTop-1 inlineBlock">← {previous.frontmatter.title}</span>
+                        ← {previous.frontmatter.title}
                       </Link>
                     </aside>
                   )}
@@ -61,13 +61,13 @@ class NewsPostTemplate extends React.Component {
                   {next && (
                     <aside>
                       <Link to={`/news${next.fields.slug}`} rel="next">
-                        <figure className="ratio-16x9 margin-0 marginBottom-1 img-animate-hover--zoom">
+                        <figure className="ratio-16x9 marginTop-0 marginLeft-0 marginRight-0 marginBottom-2 img-animate-hover--zoom">
                           <Img
                             fluid={next.frontmatter.thumbnail.image.childImageSharp.fluid}
                             alt={next.frontmatter.thumbnail.alt}
                           />
                         </figure>
-                        <span className="marginTop-1 inlineBlock">← {next.frontmatter.title}</span>
+                        {next.frontmatter.title} →
                       </Link>
                     </aside>
                   )}
