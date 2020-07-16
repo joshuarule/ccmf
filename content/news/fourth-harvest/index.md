@@ -3,7 +3,7 @@ path: fourth harvest
 date: 2020-07-15T15:00:44.943Z
 title: Fourth Harvest Donated + Gleaned Berries
 thumbnail:
-  image: img_5811.jpg
+  image: img_5799.jpg
   alt: Catskill Community Micro Farm harvest food pantry
 description: Catskill Community Micro Farm donates harvest
 ---
