@@ -10,8 +10,7 @@ Currently looking for:
 * lettuce starts - plugs, not seeds please
 * kale
 * collards 
-* winter squash - butternut, delicata, kabocha, acorn
-* cabbage
+* chard
 
 ## Supplies
 
