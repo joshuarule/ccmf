@@ -9,9 +9,11 @@ description: Catskill Community Micro Farm Mission Statement
 
 Conceived in May of 2020, our aim is to grow fresh food to donate to our local pantries, beginning with the Catskill Community Center Food Shelf and Matthew 25.
 
-Working on an acre of land generously donated through St. Patricks Parish, we’ve begun transforming [an underutilized lot on the corner of William and Spring Street in Catskill, NY](https://goo.gl/maps/RLiLz5aHTGSXENav7) into a fully producing micro farm. 
+Working on an acre of land generously donated by the St. Patrick's Parish, we’ve begun transforming [an underutilized lot on the corner of William and Spring Street in Catskill, NY](https://goo.gl/maps/RLiLz5aHTGSXENav7) into a fully producing micro farm. 
 
 We are completely volunteer run, with all encouraged to sign up, participate, and lend their strengths to this project. Don’t think you have a green thumb? That’s okay, we’ll teach you all you need to know! Our farm work days are always include team leaders delegating tasks and teaching anyone who wants to develop their skill set.
+
+We currently rely on volunteers to water our raised beds by hand - join our email list, and we will send you the watering sign up information!
 
 You can also lend a hand in our Infrastructure Team (maintenance and building projects) or dive in to our Outreach Division (connecting with the community and finding out what people really want to eat, and how to get it to them). Or, perhaps you’d like to use your truck for a day of errands, or be a part of our distribution network at the time of harvest.
 
