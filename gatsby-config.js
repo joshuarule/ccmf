@@ -64,12 +64,21 @@ module.exports = {
             resolve: `gatsby-remark-vscode`,
           },
           {
+            resolve: "gatsby-remark-external-links",
+          },
+          {
             resolve: `gatsby-remark-copy-linked-files`,
           },
           {
             resolve: `gatsby-remark-smartypants`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-catch-links`,
+      options: {
+        excludePattern: /http.+/,
       },
     },
     `gatsby-plugin-sharp`,
