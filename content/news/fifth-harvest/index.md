@@ -3,7 +3,7 @@ path: fifth harvest
 date: 2020-07-22T19:07:41.539Z
 title: "Harvest #5 Donated - Eggplants and Peppers!"
 thumbnail:
-  image: img_5887.jpg
+  image: img_5891.jpg
   alt: Catskill Community Micro Farm volunteer harvesting chard
 description: Harvesting Chard
 ---
