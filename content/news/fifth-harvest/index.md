@@ -3,11 +3,11 @@ path: fifth harvest
 date: 2020-07-22T19:07:41.539Z
 title: "Harvest #5 Donated - Eggplants and Peppers!"
 thumbnail:
-  image: img_5891.jpg
+  image: img_5891.jpeg
   alt: Catskill Community Micro Farm volunteer harvesting chard
 description: Harvesting Chard
 ---
-![Catskill Community Micro Farm harvest Avalon Lounge eggplants peppers](img_5895.jpg "Harvest")
+![Catskill Community Micro Farm harvest Avalon Lounge eggplants peppers](img_5895.jpeg "Harvest")
 
 New crops this week! Eggplants and peppers are looking bountiful.
 
@@ -33,12 +33,14 @@ All of this fresh produce went to the [Catskill Community Center Food Shelf](htt
 
 **We send out an email every Tuesday to coordinate the Wednesday morning harvest, so stay tuned! [Join our email list here](https://gmail.us18.list-manage.com/subscribe?u=94746e6c6b5541022831953dd&id=1a2ecd69c1).**
 
-![Catskill Community Micro Farm volunteers harvesting](img_5885.jpg "Harvesting")
+![Catskill Community Micro Farm volunteers harvesting](img_5885.jpeg "Harvesting")
 
-![Catskill Community Micro Farm harvest kale eggplants peppers chard beets](img_5891.jpg "Harvest")
+![Catskill Community Micro Farm volunteers harvesting](img_5887.jpeg "Harvesting")
 
-![Catskill Community Micro Farm volunteer washing at Avalon Lounge](img_5896.jpg "Washing Harvest")
+![Catskill Community Micro Farm harvest kale eggplants peppers chard beets](img_5891.jpeg "Harvest")
 
-![Catskill Community Micro Farm Catskill Community Center Food Shelf donation](img_5902.jpg "Food Pantry Donation")
+![Catskill Community Micro Farm volunteer washing at Avalon Lounge](img_5896.jpeg "Washing Harvest")
 
-![Catskill Community Micro Farm Catskill Community Center Food Shelf donation](img_5903.jpg "Food Pantry donation")
+![Catskill Community Micro Farm Catskill Community Center Food Shelf donation](img_5902.jpeg "Food Pantry Donation")
+
+![Catskill Community Micro Farm Catskill Community Center Food Shelf donation](img_5903.jpeg "Food Pantry donation")
