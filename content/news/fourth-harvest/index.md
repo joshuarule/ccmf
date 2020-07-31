@@ -3,7 +3,7 @@ path: fourth harvest
 date: 2020-07-15T15:00:44.943Z
 title: Fourth Harvest Donated + Gleaned Berries
 thumbnail:
-  image: img_5799.jpg
+  image: img_5799.jpeg
   alt: Catskill Community Micro Farm harvest food pantry
 description: Catskill Community Micro Farm donates harvest
 ---
@@ -13,14 +13,14 @@ We donated 14 bags of kale, 10 bunches of chard, 5 bunches of collards, 9 bunche
 
 Thank you to our volunteers, and to the [Avalon Lounge](https://www.theavalonlounge.com/) for allowing us to wash produce in their commercial kitchen every week.
 
-![Catskill Community Micro Farm volunteers harvesting](img_5782.jpg "Harvest")
+![Catskill Community Micro Farm volunteers harvesting](img_5782.jpeg "Harvest")
 
-![Catskill Community Micro Farm eggplants](img_5784.jpg "Eggplants")
+![Catskill Community Micro Farm eggplants](img_5784.jpeg "Eggplants")
 
-![Catskill Community Micro Farm greens](img_5790.jpg "Greens and Beds")
+![Catskill Community Micro Farm greens](img_5790.jpeg "Greens and Beds")
 
-![Catskill Community Micro Farm Avalon Lounge washing greens](img_5793.jpg "Avalon")
+![Catskill Community Micro Farm Avalon Lounge washing greens](img_5793.jpeg "Avalon")
 
-![Catskill Community Micro Farm harvest](img_5799.jpg "Harvest")
+![Catskill Community Micro Farm harvest](img_5799.jpeg "Harvest")
 
-![Catskill Community Micro Farm Catskill Community Center Food Shelf](img_5810.jpg "Donated Food")
+![Catskill Community Micro Farm Catskill Community Center Food Shelf](img_5810.jpeg "Donated Food")
