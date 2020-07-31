@@ -3,7 +3,7 @@ path: first harvest
 date: 2020-06-24T16:41:19.487Z
 title: First Harvest, Success!
 thumbnail:
-  image: img_5596.jpg
+  image: img_5596.jpeg
   alt: Catskill Community Micro Farm volunteers harvesting
 description: Catskill Community Micro Farm first harvest
 ---
@@ -11,11 +11,11 @@ Well, here it is! Our first full harvest of the season, donated to the <a href="
 
 We donated 32 bags of lettuce mix, 13 bags of spinach, 6 bags of loose kale & chard, and 6 bunches of chard.
 
-![Catskill Community Micro Farm volunteers harvesting](img_5596.jpg "Harvesting")
+![Catskill Community Micro Farm volunteers harvesting](img_5596.jpeg "Harvesting")
 
-![Catskill Community Micro Farm volunteer packing greens and produce](img_5603.jpg "Packing Greens")
+![Catskill Community Micro Farm volunteer packing greens and produce](img_5603.jpeg "Packing Greens")
 
-![Catskill Community Micro Farm volunteer washing greens](img_5599.jpg "Washing Greens")
+![Catskill Community Micro Farm volunteer washing greens](img_5599.jpeg "Washing Greens")
 
 ![Catskill Community Micro Farm harvest](img_5608.jpeg "Packed Harvest")
 
