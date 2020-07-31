@@ -17,7 +17,7 @@ We donated 32 bags of lettuce mix, 13 bags of spinach, 6 bags of loose kale & ch
 
 ![Catskill Community Micro Farm volunteer washing greens](img_5599.jpg "Washing Greens")
 
-![Catskill Community Micro Farm harvest](img_5608.jpg "Packed Harvest")
+![Catskill Community Micro Farm harvest](img_5608.jpeg "Packed Harvest")
 
 ![Catskill Community Micro Farm harvest](img_5615.jpeg "Harvest Packed")
 
