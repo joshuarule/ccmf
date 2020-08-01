@@ -7,13 +7,14 @@ description: Catskill Community Micro Farm Wishlist
 
 Currently looking for:
 
-* lettuce starts - plugs, not seeds please
 * kale
 * collards 
 * chard
+* beets
 
 ## Supplies
 
+* Tomato quart boxes + cardboard tomato flats 
 * Remay/row cover
 * Drip Tape (holes ok)
 * Wax boxes
