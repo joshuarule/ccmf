@@ -7,8 +7,6 @@ description: Catskill Community Micro Farm Mission Statement
 
 ![Catskill Farm Volunteers amongst raised beds](ccmf-group-1-.jpg "Catskill Community Micro Farm Volunteers")
 
-
-
 Conceived in May of 2020, our aim is to grow produce for donation to local food pantries, addressing the shortage of healthy, fresh food in the pantry system. We are beginning with donations to the Catskill Community Center Food Shelf, and Matthew 25.
 
 Working on an acre of land generously donated by the St. Patrick's Parish, we’ve begun transforming [an underutilized lot on the corner of William and Spring Street in Catskill, NY](https://goo.gl/maps/RLiLz5aHTGSXENav7) into a fully producing micro farm. We are currently harvesting enough fresh produce to supply 20-25 families each week.
