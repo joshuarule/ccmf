@@ -3,7 +3,7 @@ path: about
 title: About
 description: Catskill Community Micro Farm Mission Statement
 ---
-![Catskill Farm Volunteers amongst raised beds](small.jpg "Catskill Community Micro Farm Volunteers")
+![Catskill Farm Volunteers amongst raised beds](smaller.jpg "Catskill Community Micro Farm Volunteers")
 
 **Hello, and welcome to Catskill Community Micro Farm**! 
 
