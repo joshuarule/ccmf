@@ -3,7 +3,7 @@ path: seventh harvest
 date: 2020-08-05T18:21:03.419Z
 title: "Harvest Lucky #7, Our Best Yet!"
 thumbnail:
-  image: img_6090.jpeg
+  image: img_6082.jpeg
   alt: Catskill Community Micro Farm Catskill Community Center Food Pantry
 description: CCC Food Pantry
 ---
