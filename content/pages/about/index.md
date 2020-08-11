@@ -3,9 +3,11 @@ path: about
 title: About
 description: Catskill Community Micro Farm Mission Statement
 ---
+**Hello, and welcome to Catskill Community Micro Farm**! 
+
 ![Catskill Farm Volunteers amongst raised beds](ccmf-group-1-.jpg "Catskill Community Micro Farm Volunteers")
 
-**Hello, and welcome to Catskill Community Micro Farm**! 
+
 
 Conceived in May of 2020, our aim is to grow produce for donation to local food pantries, addressing the shortage of healthy, fresh food in the pantry system. We are beginning with donations to the Catskill Community Center Food Shelf, and Matthew 25.
 
