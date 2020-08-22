@@ -15,8 +15,6 @@ We are completely volunteer run, with all encouraged to [sign up](https://gmail.
 
 We currently rely on volunteers to water our raised beds by hand - [join our email list](https://gmail.us18.list-manage.com/subscribe?u=94746e6c6b5541022831953dd&id=1a2ecd69c1), and we will send you the watering sign up information.
 
-You can also lend a hand in our Infrastructure Team (maintenance and building projects), or our Outreach Division (connecting with the community and finding out what people really want to eat, and how to get it to them). 
-
 As a group of individuals, and not a business, we’re heavily reliant on donations, so please consider connecting us to folks who might have things to spare in the way of farm equipment or plant starts.
 
 If you’d like to get involved, please fill out our [sign up form](https://forms.gle/uWkdaTd5AecLJcf5A), and don’t hesitate to [reach out](mailto:info@ccmicrofarm.org).  We’re open to ideas, evolution, and collaboration across the board.
