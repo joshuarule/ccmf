@@ -7,10 +7,7 @@ description: Catskill Community Micro Farm Wishlist
 
 Currently looking for:
 
-* kale
-* collards 
-* chard
-* beets
+* hoophouse infrastructure for next year!
 
 ## Supplies
 
