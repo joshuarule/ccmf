@@ -21,6 +21,7 @@ class News extends React.Component {
         <h1>News</h1>
         <div className="col-3">
           {posts.map(({ node }) => {
+            console.log(node);
             if(!node.childMdx) return false;
             const frontmatter = node.childMdx.frontmatter;
             const title = frontmatter.title || node.childMdx.fields.slug
@@ -65,7 +66,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allFile(filter: {sourceInstanceName: {eq: "news"}}, sort: {order: DESC, fields: childMdx___frontmatter___date}, limit: 100) {
+    allFile(filter: {sourceInstanceName: {eq: "news"}}, sort: {order: DESC, fields: childMdx___frontmatter___date}, limit: 200) {
       edges {
         node {
           childMdx {
