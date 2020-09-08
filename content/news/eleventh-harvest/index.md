@@ -25,12 +25,10 @@ At this point, our donations have been enough to supply between 20-25 families a
 16 lbs. peaches\
 3 watermelons, sliced and bagged**
 
-
-
 **Food Pantry Updates**
 
 \
-As many of you know, the Catskill Community Center has officially closed. Megan Henry, who has been coordinating the their food pantry, is forming a new project - and we are happy to continue to donate to her effort! The new pantry will be called the [Catskill Food Pantry](http://catskillfoodpantry.org), and will be located at St. Luke's Episcopal Church on William Street.\
+As many of you know, the Catskill Community Center's Food Pantry has officially closed. Megan Henry, who has been coordinating, is forming a new project - and we are happy to continue to donate to her effort! The new pantry will be called the [Catskill Food Pantry](http://catskillfoodpantry.org), and will be located at St. Luke's Episcopal Church on William Street.\
 \
 The Community Center board has generously donated its food storage and distribution infrastructure to Megan, and we are hoping to help her set it up at the end of next week. More info on a work day to come!\
 \
