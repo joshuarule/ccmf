@@ -7,23 +7,35 @@ thumbnail:
   alt: Catskill Community Micro Farm volunteers harvesting
 description: Rain Harvest
 ---
-We have donated our 11th harvest to the Catskill Community Center Food Shelf! Next week will be our last donation at the Community Center, as the building closes and a new food pantry forms - detailed updates below.
+We have donated our 11th harvest to the Catskill Community Center Food Shelf! Next week will be our last donation at the Community Center, as that operation closes and a new food pantry forms - detailed updates below.
 
 At this point, our donations have been enough to supply between 20-25 families a week with fresh food. Donated to the **Catskill Community Food Shelf** yesterday:
 
-**56 bunches kale\
-18 bunches collards\
-22 lbs. tomatoes\
-17 lbs. peppers\
-15 lbs. eggplant\
-12 bunches scallions**
+**56 bunches kale**
 
-**Donated from 2 other local farm gardens:\
-10 heads bac choi\
-8 bunches beets + 10 lbs. loose beets\
-10 bunches radishes\
-16 lbs. peaches\
-3 watermelons, sliced and bagged**
+**18 bunches collards**
+
+**22 lbs. tomatoes**
+
+**17 lbs. peppers**
+
+**15 lbs. eggplant**
+
+**12 bunches scallions**
+
+
+
+**Donated from 2 other local farm gardens:**
+
+**10 heads bac choi**
+
+**8 bunches beets + 10 lbs. loose beets**
+
+**10 bunches radishes**
+
+**16 lbs. peaches**
+
+**3 watermelons, sliced and bagged**
 
 **Food Pantry Updates**
 
