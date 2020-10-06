@@ -3,11 +3,11 @@ path: wishlist
 title: Wishlist
 description: Catskill Community Micro Farm Wishlist
 ---
-## Seedlings and starts
+## Donations
 
 Currently looking for:
 
-* hoophouse infrastructure for next year!
+* Donations to the [Catskill Food Pantry GoFundMe](https://www.gofundme.com/f/catskillfoodpantry)
 
 ## Supplies
 
@@ -15,7 +15,6 @@ Currently looking for:
 * Remay/row cover
 * Drip Tape (holes ok)
 * plastic wash/pack bins
-* 5 gallon buckets
 * Black plastic water tubs: 50-100 gallons 
 
 [Contact us to donate!](mailto:info@ccmicrofarm.org)
