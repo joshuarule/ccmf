@@ -86,44 +86,10 @@ class Layout extends React.Component {
                 </div>
                 <nav>
                   <ul className="list--clean bp-1_t-right">
-                    <li className="inlineBlock">
-                      <a
-                        className="h2 link--clean paddingHorizontal-2 inlineBlock"
-                        href="https://www.facebook.com/12414microfarm"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Icon name="facebook" />
-                      </a>
-                    </li>
-                    <li className="inlineBlock">
-                      <a
-                        className="h2 link--clean paddingHorizontal-2 inlineBlock"
-                        href="https://instagram.com/catskillcommunitymicrofarm"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Icon name="instagram" />
-                      </a>
-                    </li>
-                    <li className="inlineBlock">
-                      <a
-                        className="h2 link--clean paddingLeft-2 inlineBlock"
-                        href="mailto:info@ccmicrofarm.org"
-                      >
-                        <Icon name="email" />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="block link--clean paddingTop-2"
-                        href="https://goo.gl/maps/RLiLz5aHTGSXENav7"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Spring & William Catskill, NY
-                      </a>
-                    </li>
+                    <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-2 inlineBlock" href="https://www.facebook.com/12414microfarm" target="_blank" rel="noopener noreferrer"><Icon name="facebook"/></a></li>
+                    <li className="inlineBlock"><a className="h2 link--clean paddingHorizontal-2 inlineBlock" href="https://instagram.com/catskillcommunitymicrofarm" target="_blank" rel="noopener noreferrer"><Icon name="instagram"/></a></li>
+                    <li className="inlineBlock"><a className="h2 link--clean paddingLeft-2 inlineBlock" href="mailto:info@ccmicrofarm.org"><Icon name="email"/></a></li>
+                    <li><a className="block link--clean paddingTop-2" href="https://goo.gl/maps/2vFJEFSQAUbSBSED8" target="_blank" rel="noopener noreferrer">105 William St, Catskill, NY</a></li>
                   </ul>
                 </nav>
               </div>
