@@ -61,7 +61,16 @@ class Layout extends React.Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Join Us!
+                      Join Us
+                    </a>
+                  </li>
+                  <li className="marginBottom-2">
+                    <a
+                      href="https://www.gofundme.com/f/ccmfirrigation"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Donate
                     </a>
                   </li>
                 </ul>
