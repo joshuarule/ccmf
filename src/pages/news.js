@@ -17,7 +17,7 @@ class News extends React.Component {
         title={siteTitle}
         className="container"
       >
-        <SEO title="All posts" />
+        <SEO title="News" />
         <h1>News</h1>
         <div className="col-3">
           {posts.map(({ node }) => {
