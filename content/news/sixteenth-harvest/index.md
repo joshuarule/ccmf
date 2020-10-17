@@ -1,7 +1,7 @@
 ---
 path: sixteenth harvest
 date: 2020-10-07T13:12:54.484Z
-title: "Harvest #16 - Donate to the Catskill Food Pantry"
+title: "Harvest #16 - Please Donate to the Catskill Food Pantry"
 thumbnail:
   image: img_7125.jpg
   alt: Catskill Food Pantry
