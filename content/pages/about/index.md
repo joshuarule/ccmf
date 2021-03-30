@@ -21,7 +21,7 @@ We look forward to meeting you!
 
 **CONTACT**
 
-Wesley Nichols & Hannah Otten, Lead Organizers
+Wesley Harper & Hannah Otten, Lead Organizers
 
 Email: info@ccmicrofarm.org
 
